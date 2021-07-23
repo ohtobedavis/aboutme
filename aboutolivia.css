@@ -1,0 +1,100 @@
+#mainbackground {
+  background-color: darkgreen;
+  margin: 0 auto;
+}
+
+/* Top of Page */
+.navbar {
+  background-color: darkseagreen;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 30px;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+#opener {
+  text-align: center;
+  font-size: 2rem;
+}
+#Davis-img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 550px;
+height: 600px;
+border: 2px solid green;
+border-radius: 50%;
+}
+
+
+/* Middle of Page */
+.subheader {
+  border: 2px dotted lightblue;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2rem;
+  color: lightblue;
+}
+
+#timeline-items {
+  display: flex;
+  list-style: none;
+
+  justify-content: space-between;
+  padding: 25px 15px;
+  margin: 3.75rem 0rem 2.5rem 0rem;
+
+  background: linear-gradient(to right, #ff9966 0%, #ffff66 25%, #99ff66 50%, #99ccff 75%, #ff99ff 100%);
+
+  font-size: 20px;
+}
+
+#transition {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: lightblue;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.content {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+/* Bottom of Page */
+#closer {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+cite {
+  position: right;
+  font-size: 1.25rem;
+}
+
+#footer-image {
+  bottom: -40px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+}
